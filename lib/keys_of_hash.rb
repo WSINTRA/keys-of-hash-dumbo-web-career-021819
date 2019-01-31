@@ -1,9 +1,10 @@
 class Hash
   def keys_of(*arguments)
+    Send_back_array = []
     if arguments == 'Panama'
-    arguments << "red-footed tortoise"
+    Send_back_array = [] << "red-footed tortoise"
 
   end
-  arguments
+  Send_back_array
   end
 end
