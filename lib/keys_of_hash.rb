@@ -1,11 +1,9 @@
 class Hash
-  Send_back_array = []
   def keys_of(*arguments)
-    
-    if arguments == 'Panama'
-    Send_back_array  << "red-footed tortoise"
-
-  end
-  Send_back_array
+    map do |key, value|
+      if(arguments.include?(value))
+        key
+      end
+    end
   end
 end
