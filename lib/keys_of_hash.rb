@@ -1,4 +1,5 @@
 class Hash
+  Send_back_array = []
   def keys_of(*arguments)
     Send_back_array = []
     if arguments == 'Panama'
