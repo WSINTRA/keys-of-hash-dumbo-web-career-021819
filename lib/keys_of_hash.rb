@@ -4,4 +4,5 @@ class Hash
     arguments << "red-footed tortoise"
     arguments
   end
+  end
 end
